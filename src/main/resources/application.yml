@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+logging:
+  level:
+    com.example.sportstracker: DEBUG
